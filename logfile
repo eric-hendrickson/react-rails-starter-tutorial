@@ -1,0 +1,10 @@
+2018-06-11 10:29:04.602 PDT [88018] LOG:  listening on IPv6 address "::1", port 5432
+2018-06-11 10:29:04.602 PDT [88018] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-06-11 10:29:04.603 PDT [88018] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-06-11 10:29:04.616 PDT [88019] LOG:  database system was shut down at 2018-06-11 10:28:56 PDT
+2018-06-11 10:29:04.619 PDT [88018] LOG:  database system is ready to accept connections
+2018-06-11 10:29:09.002 PDT [88028] FATAL:  database "tiiwaaz" does not exist
+2018-06-11 11:26:39.116 PDT [88772] ERROR:  database "rails-react-starter-tutorial_development" already exists
+2018-06-11 11:26:39.116 PDT [88772] STATEMENT:  CREATE DATABASE "rails-react-starter-tutorial_development" ENCODING = 'unicode'
+2018-06-11 11:26:39.127 PDT [88773] ERROR:  database "rails-react-starter-tutorial_test" already exists
+2018-06-11 11:26:39.127 PDT [88773] STATEMENT:  CREATE DATABASE "rails-react-starter-tutorial_test" ENCODING = 'unicode'
