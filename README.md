@@ -1,24 +1,15 @@
-# README
+# rails-react-starter-tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+After cloning, `cd` into the folder and run `bundle install`. Then run `rails db:create db:migrate db:seed` to create, prepare, and seed the database (PostgreSQL).
 
-* Ruby version
+## Running the App
 
-* System dependencies
+You should use [forman](https://github.com/ddollar/foreman) to run this app. To run it, use this command:
 
-* Configuration
+```bash
+foreman start -f Procfile.dev -p 3000
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then you should be able to access the app on localhost:3000.
